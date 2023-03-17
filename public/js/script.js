@@ -1,6 +1,3 @@
-console.log("Hello from the client side JS!!");
-
-
 const searchButton = document.querySelector('form')
 const address = document.querySelector('input')
 const message1 = document.getElementById("message1")
