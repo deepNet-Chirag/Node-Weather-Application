@@ -1,0 +1,67 @@
+body{
+    font-size: 13;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 100px;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+}
+
+
+.main-content{
+    flex-grow: 1;
+}
+
+.navigation{
+    margin-top: 20px;
+    margin-bottom:100px}
+
+.navigation a{
+    text-decoration: none;
+    font-style: none;
+    font-size: 20px;
+    padding:5px;
+    color:white;
+    border-radius: 2px;
+    border:1px solid voilet;
+    background-color: violet;
+    margin-right:20px;
+
+}
+
+footer{
+    margin-top: 20px;
+    border-top:1px solid black ;
+    color:gray;
+    font-size: 18px;
+    padding:0px
+
+}
+.photo{
+    margin-top :20px;
+    height: 250px;
+    width:250px;
+}
+
+h2{
+    color: lightslategray;
+}
+
+input{
+    padding:5px;
+}
+
+button{
+    background-color: rgb(159, 231, 65);
+    color:white;
+    border: none;
+    padding:7px
+}
+
+.message{
+    margin-top:20px;
+    color:blueviolet
+
+}
