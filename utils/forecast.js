@@ -13,7 +13,7 @@ const forecast = (longitude,latitude,callback) => {
             callback("Unable to fetch the temperature!!", undefined)
         }
         else{
-            callback(undefined,"Today weather is " + data.current.weather_descriptions[0] +". It is currently " + data.current.temperature + " degree but it feels like " + data.current.feelslike + " degree.");
+            callback(undefined,"Today weather is " + data.current.weather_descriptions[0] +". It is currently " + data.current.temperature + " degree but it feels like " + data.current.feelslike + " degree. Humity is "+ data.current.humidity + " and visibility is "+ data.current.visibility +".");
         }
         
     })
